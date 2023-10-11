@@ -52,7 +52,7 @@ console.log('second animal is', secondAnimal);
 
 let lastAnimal = animalArray[3]
 console.log('last animal is', lastAnimal);
-
+console.log(animalArray);
 // 3.c. (STRETCH) TODO: Refactor 3.b to use the `animalArray` variable's .length 
 //       property, rather than the exact (hardcoded) index number of the last item.
 
