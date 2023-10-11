@@ -50,7 +50,8 @@ console.log('second animal is', secondAnimal);
 //      sure that your code does what you want. (Never trust your code until
 //      you have proof that it works!)
 
-
+let lastAnimal = animalArray[3]
+console.log('last animal is', lastAnimal);
 
 // 3.c. (STRETCH) TODO: Refactor 3.b to use the `animalArray` variable's .length 
 //       property, rather than the exact (hardcoded) index number of the last item.
@@ -61,8 +62,7 @@ console.log('second animal is', secondAnimal);
 console.log('--- 4. Adding and removing array items ---');
 
 // Example: Add an animal to the end of an array using the Array.push method.
-let animalToPush = 'penguin';
-animalArray.push(animalToPush);
+animalArray.push( 'penguin' );
 console.log('Added an animal to end,', animalArray);
 
 // 4.a. TODO: Create a variable `dessert` and assign it a string value of
@@ -70,8 +70,9 @@ console.log('Added an animal to end,', animalArray);
 //      Similar to above, add the `dessert` to the end of your `favoriteFoods`
 //      array. (How can you be 100% certain this worked? 🤔)
 
-
-
+let dessert = 'ice cream cake';
+favoriteFoods.push(dessert);
+console.log(favoriteFoods);
 // Example: Add to the beginning of an array using the Array.unshift method.
 let animalToUnshift = 'walrus';
 animalArray.unshift(animalToUnshift);
